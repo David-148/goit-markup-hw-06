@@ -39,7 +39,7 @@ a {
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768;
+        max-width: 768px;
     }
 }
 
@@ -206,7 +206,7 @@ address {
     .mob-content {
         width: 320px;
         height: 640px;
-        padding-: 72px 16px 40px;
+        padding: 72px 16px 40px;
         margin: 0 auto;
         text-align: left;
     }
@@ -720,12 +720,26 @@ width: 100%;
 
 /*Section 4*/
 
+.section-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+}
+
 .portfolio-section {
     padding: 96px 0;
 }
 
 .portfolio-list {
     background-color: #ffffff;
+    
 }
 
 .portfolio-list-item {
